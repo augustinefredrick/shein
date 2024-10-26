@@ -1,0 +1,66 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar .shein-logo {
+  font-size: 30px;
+}
+
+.navbar .search {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search input {
+  height: 25px;
+  padding: 15px 5px;
+  width: 500px;
+}
+
+.navbar .search img {
+  background: black;
+  height: 33px;
+}
+
+.navbar .user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .user img{
+  margin-left: 15px;
+}
+
+.category ul {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+
+.category ul li {
+  list-style: none;
+  margin-left: 10px;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.category ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.small-banner img{
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.small-banner{
+  margin-bottom: 10px;
+}

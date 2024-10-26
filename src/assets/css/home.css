@@ -1,0 +1,310 @@
+/* Slider container */
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Images */
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Navigation buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Dots (optional for indicating current image) */
+.dots {
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home .promo {
+  width: 325px;
+  height: 285px;
+  border-radius: 10px;
+}
+
+.hero img {
+  width: 100%;
+  margin: 30px 0 15px 0;
+}
+
+.all-category {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.all-category .category-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.all-category .category-body .category-img img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+
+}
+
+.all-category .category-body p{
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.super-deal {
+  background-image: url('../images/superbanner.webp');
+  position: relative;
+  height: 370px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.super-deal .deal-img {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.super-deal .deal-img img {
+  width: 100%;
+}
+
+.super-deal .deal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.discount {
+  width: 100%;
+  height: 70px;
+  background: pink;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.d-banner {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+.d-banner img {
+  width: 100%;
+}
+
+.spotlight {
+  margin: 80px 0 15px 0;
+}
+
+.spotlight h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.spotlight .spotlight-img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+
+.spotlight .spotlight-img img {
+  width: 100%;
+}
+
+.trending {
+  margin: 30px 0 15px 0;
+}
+
+.trending h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.trending .trending-img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+
+.trending .trending-img img {
+  width: 100%;
+}
+.recommend h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.recommend-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.recommend-body .recommend-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommend-body .recommend-img img {
+  width: 100%;
+}
+
+.recommend-body .recommend-price button {
+  width: 50px;
+  border-radius: 15px;
+  background: transparent;
+  border: 0.5px solid black;
+}
+
+.gallery {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery-img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 50px 0;
+}
+
+.button button {
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  /* background: red; */
+}
+
+.button .btn1 {
+  background-image: linear-gradient(
+    to right,
+    rgba(227, 186, 143),
+    rgb(255, 231, 194)
+  );
+}
+
+.button .btn2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(138, 55, 83),
+    rgb(248, 222, 231)
+  );
+}
+
+.button .btn3 {
+  background: #d7c9bd;
+}
+
+.button .btn4 {
+  background: #dccad7;
+}
+
+.button .btn5 {
+  background: #c39171;
+}
+
+.button .btn6 {
+  background: #d3c4af;
+}
+
+.button .btn7 {
+  background: #dea6a7;
+}
+
+.button .btn8 {
+  background: #edd0b4;
+}
+
+.button .btn9 {
+  background: #8f7b74;
+}
+
+.button .btn10 {
+  background: #373e58;
+}

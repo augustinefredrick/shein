@@ -1,0 +1,107 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 0 30px 0;
+  /* align-items: center; */
+}
+
+.sign-in .padlock {
+  width: 15px;
+  height: 15px;
+}
+
+.sign-in .data-protected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.sign-in h3,
+p {
+  text-align: center;
+}
+
+.sign-in p {
+  font-size: 12px;
+}
+
+.sign-in img {
+  width: 24px;
+  height: 24px;
+}
+
+.sign-in input,
+label {
+  width: 30%;
+  margin: auto;
+  font-size: 12px;
+}
+
+.sign-in label {
+  margin-bottom: 8px;
+}
+
+.sign-in .coupon {
+  margin: 20px 0;
+  color: red;
+}
+
+.sign-in input {
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.sign-in button {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  padding: 12px;
+  border: 0.5px solid rgb(172, 171, 171);
+  background: transparent;
+}
+
+.sign-in button:hover{
+    background: rgb(238, 237, 237);
+}
+
+.sign-in .continue {
+  margin-bottom: 20px;
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sign-in .continue:hover{
+    background: rgb(66, 66, 66);
+}
+
+.sign-in .google {
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.sign-in .address {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 10%;
+  padding: 6px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(238, 237, 237);
+}
+
+.sign-in .address img {
+  width: 12px;
+  height: 12px;
+}
+
+.sign-in .terms {
+  width: 20%;
+  margin: auto;
+  font-size: 12px;
+}
